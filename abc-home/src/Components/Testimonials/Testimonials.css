@@ -77,7 +77,8 @@
     }
 
     .testimonials ul li {
-        padding: 10px;
+        padding: 0px;
+    
     }
 
     .slide {
@@ -87,6 +88,13 @@
     .slide img {
         width: 50px;
         border: 3px solid #676767;
+    }
+
+    .slider ul {
+        display: flex;
+        width: 400%;
+        overflow-x: hidden;
+        transition: 0.5s;
     }
  }
 

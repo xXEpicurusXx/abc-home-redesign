@@ -79,3 +79,10 @@ a {
   }
 
 }
+
+@media (max-width: 650px){
+  .btn.dark-btn {
+    width: 100%;
+  }
+
+}

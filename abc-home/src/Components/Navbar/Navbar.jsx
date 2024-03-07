@@ -33,7 +33,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="program" smooth={true} offset={-260} duration={500}>
+          <Link to="program" smooth={true} offset={-280} duration={500}>
             リフォーム事例
           </Link>
         </li>
@@ -43,7 +43,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="testimonials" smooth={true} offset={-260} duration={500}>
+          <Link to="testimonials" smooth={true} offset={-310} duration={500}>
             お客様の声
           </Link>
         </li>

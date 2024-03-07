@@ -3,6 +3,8 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
+    
+    
     <div className='footer'>
       <p>Copyright © 株式会社エービーシーホーム All rights reserved.</p>
       <ul>

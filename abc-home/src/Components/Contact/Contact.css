@@ -39,6 +39,7 @@
 .contact-col ul li img{
     width: 25px;
     margin-right: 10px;
+    margin-left: 10px;
 }
 
 .contact form input, .contact form textarea {
@@ -59,6 +60,74 @@
     
 }
 
+.contact-col .notes {
+    font-weight: 600;
+}
+
+/* -------------------------------------------- */
+
+.info {
+    margin: 80px auto;
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    border-top: 1px solid #797979;
+
+}
+
+.contact-col {
+    flex-basis: 48%;
+    color: #676767;
+}
+
+.info h3 {
+    color: #000F38;
+    font-weight: 500;
+    font-size: 25px;   
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info h3 img {
+    width: 35px;
+    margin-left: 10px;
+}
+
+.info p{
+    max-width: 450px;
+    list-style: 0.3;
+}
+
+.info ul li {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.info ul li img{
+    width: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.col-right {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.contact-col img {
+    width: 205px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+
 /* -------------------- media query --------------------*/
 
 @media (max-width: 700px){
@@ -66,7 +135,23 @@
         display: block;
         }
 
+    .info {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        }
+
+    .contact-col img {
+        width: 305px;
+        margin: 10px;
+    }
+
     .contact-col {
         padding: 20px;
     }
+
+    .contact-col ul li a {
+        font-size: 15px;
+    }
+
 }
